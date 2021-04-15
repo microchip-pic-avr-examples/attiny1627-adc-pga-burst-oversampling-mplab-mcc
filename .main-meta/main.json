@@ -4,27 +4,27 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny1627-adc-pga-burst-oversampling-mplab-mcc",
-        "version": "",
-        "displayName": "",
+        "version": "1.0.0",
+        "displayName": "How to Use the 12-Bit Differential ADC with PGA in Burst Accumulation Mode",
         "projectName": "attiny1627-adc-pga-burst-oversampling-mplab-mcc",
-        "shortDescription": "",
+        "shortDescription": "This Melody example shows hor to use the ADC's powerful burst mode with oversampling feature on the avrTiny® 2-series.",
         "ide": {
             "name": "MPLAB X",
-            "semverRange": ""
+            "semverRange": ">=5.45.0"
         },
         "compiler": [
 			{
 				"name": "XC8",
-				"semverRange": ""
+				"semverRange": "^2.32.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^2.6.122"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=4.1.0"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,16 +32,29 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny1627",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
+            ["Peripherals","ADC"],
+            ["Peripherals","VREF"]
         ],
         "peripherals": [
+			"ADC",
+			"VREF"
         ],
         "keywords": [
+			"Programmable Gain Amplifiers",
+            "PGA",
+            "Differential ADC",
+            "12-bit ADC",
+            "Oversampling",
+			"16-bit Resolution",
+			"Curiosity Nano",
+			"adc-pga-burst-oversampling",
+			"Melody"
         ],
 		"additionalData": {
 			"longDescription": {
