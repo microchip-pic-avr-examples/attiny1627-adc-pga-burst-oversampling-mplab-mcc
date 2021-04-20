@@ -7,7 +7,7 @@
         "version": "1.0.0",
         "displayName": "How to Use the 12-Bit Differential ADC with PGA in Burst Accumulation Mode",
         "projectName": "attiny1627-adc-pga-burst-oversampling-mplab-mcc",
-        "shortDescription": "This Melody example shows hor to use the ADC's powerful burst mode with oversampling feature on the avrTiny® 2-series.",
+        "shortDescription": "This Melody example shows how to use the ADC's powerful burst mode with oversampling feature on the tinyAVR® 2 Family.",
         "ide": {
             "name": "MPLAB X",
             "semverRange": ">=5.45.0"
